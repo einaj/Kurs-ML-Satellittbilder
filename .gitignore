@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,gis,jupyternotebooks,pycharm,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode,gis,jupyternotebooks,pycharm,windows,linux
 
+# Eurosat datasett
+/notebooks/data/eurosat/*
+
 ### GIS ###
 *.gpx
 *.kml
