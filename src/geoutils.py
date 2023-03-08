@@ -21,6 +21,7 @@ class GeoImage():
             self.original["transform"] = src.transform
             self.bounds = src.bounds
             self.metadata = src.tags()
+            self.crs = src.crs
 
     def preview(self, useROI: bool=True):
         """
@@ -73,6 +74,11 @@ class GeoImage():
             data = self.original["data"]
             transform = self.original["transform"]
 
+        if self.crs is None:
+            crs = '+proj=latlong'
+        else:
+            crs = self.crs
+
         new_tiff = rio.open(
             str(filepath),
             'w',
@@ -81,7 +87,7 @@ class GeoImage():
             width=data.shape[2],
             count=data.shape[0],
             dtype=data.dtype,
-            crs='+proj=latlong',
+            crs=crs,
             transform=transform,
         )
 
@@ -129,6 +135,11 @@ def CopyGeoTransform(source: GeoImage, data: np.ndarray, filepath: Union[str,Pat
     else:
         transform = source.original["transform"]
 
+    if source.crs is None:
+        crs = '+proj=latlong'
+    else:
+        crs = source.crs
+
     new_tiff = rio.open(
         str(filepath),
         'w',
@@ -137,7 +148,7 @@ def CopyGeoTransform(source: GeoImage, data: np.ndarray, filepath: Union[str,Pat
         width=data.shape[2],
         count=data.shape[0],
         dtype=data.dtype,
-        crs='+proj=latlong',
+        crs=crs,
         transform=transform,
     )
 

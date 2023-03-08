@@ -3,6 +3,8 @@
 
 # Eurosat datasett
 /notebooks/data/eurosat/*
+/notebooks/data/landcover/*
+
 
 ### GIS ###
 *.gpx
