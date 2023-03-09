@@ -2,6 +2,17 @@
 
 Dette repoet inneholder kode og notebooks relatert til en ukes kurs i Maskinlæring på satellittbilder.
 
+## Lenker
+
+- Installere [Anaconda](https://www.anaconda.com/products/distribution)
+- Alt om [conda-miljøer](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- Pytorch Dokumentasjon og [tutorials](https://pytorch.org/tutorials/)
+- Introduksjon til [PyGeo](https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/)
+- [Landcover AI](https://paperswithcode.com/dataset/landcover-ai) et labelet datasett for segmentering av landområder
+- [DOTA](https://paperswithcode.com/dataset/dota) Dataset for Object deTection in Aerial Images (RGB)
+- [Yolov5](https://github.com/ultralytics/yolov5) Yolov5
+- [EuroSAT](https://github.com/phelber/EuroSAT#) Klassifisering av landareale i Sentinel 2 (RGB og Multispektral)
+
 ## Kursmateriale
 - [BackPropagation](notebooks/BackPropagation.ipynb) er en regne/kodeøvelse som går gjennom hva som skjer matematisk med utregning av gradienter under backpropagation for trening av neverale nettverk.
 - [IntroTilPytorch](notebooks/IntroTilPytorch.ipynb) er en innføring av de grunnleggende funksjonene i pytorch, som brukes til å håndtere data og bygge nevrale nettverk.
@@ -13,11 +24,3 @@ Dette repoet inneholder kode og notebooks relatert til en ukes kurs i Maskinlær
 ## Timeplan
 
 ![](media/timeplan.jpg)
-
-## Lenker
-
-- Installere [Anaconda](https://www.anaconda.com/products/distribution)
-- Alt om [conda-miljøer](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-- Pytorch Dokumentasjon og [tutorials](https://pytorch.org/tutorials/)
-- Introduksjon til [PyGeo](https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/)
-- [Landcover AI](https://paperswithcode.com/dataset/landcover-ai) et labelet datasett for segmentering av landområder
