@@ -12,6 +12,7 @@ Dette repoet inneholder kode og notebooks relatert til en ukes kurs i Maskinlær
 - [DOTA](https://paperswithcode.com/dataset/dota) Dataset for Object deTection in Aerial Images (RGB)
 - [Yolov5](https://github.com/ultralytics/yolov5) Yolov5
 - [EuroSAT](https://github.com/phelber/EuroSAT#) Klassifisering av landareale i Sentinel 2 (RGB og Multispektral)
+- [CLIP](https://github.com/openai/CLIP) Tekst og bilde modell. Zero-Shot klassifisering.
 
 ## Kursmateriale
 - [BackPropagation](notebooks/BackPropagation.ipynb) er en regne/kodeøvelse som går gjennom hva som skjer matematisk med utregning av gradienter under backpropagation for trening av neverale nettverk.
