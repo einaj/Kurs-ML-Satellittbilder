@@ -1,0 +1,28 @@
+name: GeoMLKS
+channels:
+  - nvidia
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - pip
+  - gdal
+  - python=3.10
+  - pytorch
+  - pytorch-cuda
+  - rasterio
+  - torchaudio
+  - torchvision
+  - transformers
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - geopandas
+  - shapely
+  - torchgeo
+  - ipykernel
+  - tensorboard
+  - torchinfo
+  - pip:
+    - opencv-python
+prefix: C:\Users\eijor\Anaconda3\envs\GeoMLKS
