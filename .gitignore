@@ -5,6 +5,8 @@
 /notebooks/data/eurosat/*
 /notebooks/data/landcover/*
 
+*.tif
+*.xml
 
 ### GIS ###
 *.gpx
