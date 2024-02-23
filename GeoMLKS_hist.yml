@@ -14,7 +14,8 @@ dependencies:
   - torchaudio
   - torchvision
   - transformers
-  - matplotlib
+  - matplotlib=3.7
+  - seaborn>=0.13.0
   - scikit-image
   - scikit-learn
   - geopandas
@@ -23,6 +24,7 @@ dependencies:
   - ipykernel
   - tensorboard
   - torchinfo
+  - jupyter
   - pip:
     - opencv-python
 prefix: C:\Users\eijor\Anaconda3\envs\GeoMLKS
