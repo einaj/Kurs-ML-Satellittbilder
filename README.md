@@ -7,7 +7,7 @@ Dette repoet inneholder kode og notebooks relatert til en ukes kurs i Maskinlær
 - Installere [Anaconda](https://www.anaconda.com/products/distribution)
 - Alt om [conda-miljøer](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - Pytorch Dokumentasjon og [tutorials](https://pytorch.org/tutorials/)
-- Introduksjon til [PyGeo](https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/)
+- Introduksjon til [TorchGeo](https://pytorch.org/blog/geospatial-deep-learning-with-torchgeo/)
 - [Landcover AI](https://paperswithcode.com/dataset/landcover-ai) et labelet datasett for segmentering av landområder
 - [DOTA](https://paperswithcode.com/dataset/dota) Dataset for Object deTection in Aerial Images (RGB)
 - [Yolov5](https://github.com/ultralytics/yolov5) Yolov5
@@ -22,6 +22,3 @@ Dette repoet inneholder kode og notebooks relatert til en ukes kurs i Maskinlær
 - [Segmentering](notebooks/Segmentering.ipynb) setter opp et UNet for semantisk segmentering av landtyper fra satellittbilder.
 - [toolbox](toolbox/) er en implemtering av et trent UNet fra Segmenteringsnotebooken, i en Python toolbox for Arcgis Pro. Den kjører i Arcgis 3.1 med conda miljøet som ligger vedlagt, men det kan hende man må lage et eget miljø ved å clone det lokale arcgispro-py3, og installere nødvendige pakker.
 
-## Timeplan
-
-![](media/timeplan.jpg)
