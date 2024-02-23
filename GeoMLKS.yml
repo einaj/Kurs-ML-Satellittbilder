@@ -19,19 +19,19 @@ dependencies:
   - async-lru=2.0.4=pyhd8ed1ab_0
   - async-timeout=4.0.3=pyhd8ed1ab_0
   - attrs=23.2.0=pyh71513ae_0
-  - aws-c-auth=0.7.16=ha04060b_0
+  - aws-c-auth=0.7.11=hcf9e330_1
   - aws-c-cal=0.6.9=hd33547d_3
   - aws-c-common=0.9.12=hcfcfb64_0
   - aws-c-compression=0.2.17=hd33547d_8
-  - aws-c-event-stream=0.4.2=hf127292_0
-  - aws-c-http=0.8.0=h0cc4be6_5
-  - aws-c-io=0.14.3=hf372335_1
-  - aws-c-mqtt=0.10.2=h189e261_0
-  - aws-c-s3=0.5.1=h678faf6_1
-  - aws-c-sdkutils=0.1.14=hd33547d_0
+  - aws-c-event-stream=0.4.1=h875930a_2
+  - aws-c-http=0.8.0=ha1a3518_2
+  - aws-c-io=0.14.0=hf372335_1
+  - aws-c-mqtt=0.10.1=hda1dad8_0
+  - aws-c-s3=0.4.9=hef93162_0
+  - aws-c-sdkutils=0.1.13=hd33547d_1
   - aws-checksums=0.1.17=hd33547d_7
-  - aws-crt-cpp=0.26.2=hc0416f4_3
-  - aws-sdk-cpp=1.11.267=hf843ccd_0
+  - aws-crt-cpp=0.26.0=hed7b20b_8
+  - aws-sdk-cpp=1.11.210=h20b5662_10
   - azure-core-cpp=1.10.3=h249a519_1
   - azure-storage-blobs-cpp=12.10.0=h91493d7_0
   - azure-storage-common-cpp=12.5.0=h91493d7_2
@@ -96,6 +96,7 @@ dependencies:
   - exceptiongroup=1.2.0=pyhd8ed1ab_2
   - executing=2.0.1=pyhd8ed1ab_0
   - expat=2.5.0=h63175ca_1
+  - ffmpeg=6.1.0=gpl_hc1eaed4_104
   - filelock=3.13.1=pyhd8ed1ab_0
   - fiona=1.9.5=py310h618e506_3
   - folium=0.15.1=pyhd8ed1ab_0
@@ -108,6 +109,7 @@ dependencies:
   - fonts-conda-forge=1=0
   - fonttools=4.49.0=py310h8d17308_0
   - fqdn=1.5.1=pyhd8ed1ab_0
+  - freeglut=3.2.2=h63175ca_2
   - freetype=2.12.1=hdaf720e_2
   - freexl=2.0.0=h8276f4a_0
   - frozenlist=1.4.1=py310h8d17308_0
@@ -121,11 +123,13 @@ dependencies:
   - giflib=5.2.1=h64bf75a_3
   - glib=2.78.4=h12be248_0
   - glib-tools=2.78.4=h12be248_0
-  - grpcio=1.60.1=py310hb84602e_0
+  - graphite2=1.3.13=1000
+  - grpcio=1.59.3=py310hb84602e_0
   - gst-plugins-base=1.22.9=h001b923_0
   - gstreamer=1.22.9=hb4038d2_0
   - h11=0.14.0=pyhd8ed1ab_0
   - h2=4.1.0=pyhd8ed1ab_0
+  - harfbuzz=8.3.0=h7ab893a_0
   - hdf4=4.2.15=h5557f11_7
   - hdf5=1.14.3=nompi_h73e8ff5_100
   - hpack=4.0.0=pyh9f0ad1d_0
@@ -145,6 +149,7 @@ dependencies:
   - ipython=8.21.0=pyh7428d3b_0
   - ipywidgets=8.1.2=pyhd8ed1ab_0
   - isoduration=20.11.0=pyhd8ed1ab_0
+  - jasper=4.2.1=h28f2b1a_0
   - jedi=0.19.1=pyhd8ed1ab_0
   - jinja2=3.1.3=pyhd8ed1ab_0
   - joblib=1.3.2=pyhd8ed1ab_0
@@ -177,13 +182,13 @@ dependencies:
   - libabseil=20230802.1=cxx17_h63175ca_0
   - libaec=1.1.2=h63175ca_1
   - libarchive=3.7.2=h313118b_1
-  - libarrow=15.0.0=heb6a4d3_4_cpu
-  - libarrow-acero=15.0.0=h63175ca_4_cpu
-  - libarrow-dataset=15.0.0=h63175ca_4_cpu
-  - libarrow-flight=15.0.0=he112ba8_4_cpu
-  - libarrow-flight-sql=15.0.0=h8f0bfdc_4_cpu
-  - libarrow-gandiva=15.0.0=h2bad095_4_cpu
-  - libarrow-substrait=15.0.0=h7aa34db_4_cpu
+  - libarrow=15.0.0=he5f67d5_0_cpu
+  - libarrow-acero=15.0.0=h63175ca_0_cpu
+  - libarrow-dataset=15.0.0=h63175ca_0_cpu
+  - libarrow-flight=15.0.0=h53b1db0_0_cpu
+  - libarrow-flight-sql=15.0.0=h78eab7c_0_cpu
+  - libarrow-gandiva=15.0.0=hb2eaab1_0_cpu
+  - libarrow-substrait=15.0.0=hd4c9904_0_cpu
   - libavif=1.0.1=h7a9aacb_3
   - libblas=3.9.0=21_win64_mkl
   - libboost-headers=1.84.0=h57928b3_1
@@ -211,8 +216,8 @@ dependencies:
   - libffi=3.4.2=h8ffe710_5
   - libgdal=3.8.4=h7c2897a_0
   - libglib=2.78.4=h16e383f_0
-  - libgoogle-cloud=2.12.0=hc7cbac0_5
-  - libgrpc=1.60.1=h0bf0bfa_0
+  - libgoogle-cloud=2.12.0=h39f2fc6_4
+  - libgrpc=1.59.3=h5bbd4a7_0
   - libhwloc=2.9.3=default_haede6df_1009
   - libiconv=1.17=hcfcfb64_2
   - libjpeg-turbo=3.0.0=hcfcfb64_1
@@ -227,10 +232,24 @@ dependencies:
   - libnvjpeg=12.1.1.14=0
   - libnvjpeg-dev=12.1.1.14=0
   - libogg=1.3.4=h8ffe710_1
-  - libparquet=15.0.0=h7ec3a38_4_cpu
+  - libopencv=4.8.1=py310h83ca8e6_5
+  - libopenvino=2023.1.0=h63175ca_2
+  - libopenvino-auto-batch-plugin=2023.1.0=h63175ca_2
+  - libopenvino-auto-plugin=2023.1.0=h63175ca_2
+  - libopenvino-hetero-plugin=2023.1.0=h63175ca_2
+  - libopenvino-intel-cpu-plugin=2023.1.0=h63175ca_2
+  - libopenvino-intel-gpu-plugin=2023.1.0=h63175ca_2
+  - libopenvino-ir-frontend=2023.1.0=h63175ca_2
+  - libopenvino-onnx-frontend=2023.1.0=h63175ca_2
+  - libopenvino-paddle-frontend=2023.1.0=h63175ca_2
+  - libopenvino-pytorch-frontend=2023.1.0=h63175ca_2
+  - libopenvino-tensorflow-frontend=2023.1.0=h63175ca_2
+  - libopenvino-tensorflow-lite-frontend=2023.1.0=h63175ca_2
+  - libopus=1.3.1=h8ffe710_1
+  - libparquet=15.0.0=h7ec3a38_0_cpu
   - libpng=1.6.42=h19919ed_0
   - libpq=16.2=hdb24f17_0
-  - libprotobuf=4.25.1=hb8276f3_2
+  - libprotobuf=4.24.4=hb8276f3_0
   - libre2-11=2023.06.02=h8c5ae5e_0
   - librttopo=1.1.0=h94c4f80_15
   - libsodium=1.0.18=h8d14728_1
@@ -285,9 +304,11 @@ dependencies:
   - notebook-shim=0.2.4=pyhd8ed1ab_0
   - numpy=1.26.4=py310hf667824_0
   - omegaconf=2.3.0=pyhd8ed1ab_0
+  - opencv=4.8.1=py310h2d39e71_5
+  - openh264=2.4.0=h63175ca_0
   - openjpeg=2.5.0=h3d672ee_3
   - openssl=3.2.1=hcfcfb64_0
-  - orc=1.9.2=hf6f83f4_1
+  - orc=1.9.2=hf0b6bd4_0
   - overrides=7.7.0=pyhd8ed1ab_0
   - packaging=23.2=pyhd8ed1ab_0
   - pandas=2.2.0=py310hecd3228_0
@@ -311,12 +332,15 @@ dependencies:
   - prometheus_client=0.20.0=pyhd8ed1ab_0
   - prompt-toolkit=3.0.42=pyha770c72_0
   - prompt_toolkit=3.0.42=hd8ed1ab_0
-  - protobuf=4.25.1=py310h19be30a_0
+  - protobuf=4.24.4=py310h19be30a_0
   - psutil=5.9.8=py310h8d17308_0
   - pthread-stubs=0.4=hcd874cb_1001
   - pthreads-win32=2.9.1=hfa6e2cd_3
+  - pugixml=1.14=h63175ca_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
-  - pyarrow=15.0.0=py310hd0bb7c2_4_cpu
+  - py-cpuinfo=9.0.0=pyhd8ed1ab_0
+  - py-opencv=4.8.1=py310h56965f6_5
+  - pyarrow=15.0.0=py310hd0bb7c2_0_cpu
   - pyarrow-hotfix=0.6=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
   - pygments=2.17.2=pyhd8ed1ab_0
@@ -402,6 +426,7 @@ dependencies:
   - typing_utils=0.1.0=pyhd8ed1ab_0
   - tzdata=2024a=h0c530f3_0
   - ucrt=10.0.22621.0=h57928b3_0
+  - ultralytics=8.1.16=pyh2965483_0
   - unicodedata2=15.1.0=py310h8d17308_0
   - uri-template=1.3.0=pyhd8ed1ab_0
   - uriparser=0.9.7=h1537add_1
@@ -418,6 +443,8 @@ dependencies:
   - widgetsnbextension=4.0.10=pyhd8ed1ab_0
   - win_inet_pton=1.1.0=pyhd8ed1ab_6
   - winpty=0.4.3=4
+  - x264=1!164.3095=h8ffe710_2
+  - x265=3.5=h2d74725_3
   - xerces-c=3.2.5=h63175ca_0
   - xorg-libxau=1.0.11=hcd874cb_0
   - xorg-libxdmcp=1.1.3=hcd874cb_0
