@@ -2,8 +2,9 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode,gis,jupyternotebooks,pycharm,windows,linux
 
 # Eurosat datasett
+/notebooks/2024/data/*
 /notebooks/data/eurosat/*
-/notebooks/data/landcover/*
+notebooks/data/landcover/*
 
 *.tif
 *.xml
