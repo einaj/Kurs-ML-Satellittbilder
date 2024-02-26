@@ -4,6 +4,13 @@ Dette repoet inneholder kode og notebooks relatert til en ukes kurs i Maskinlær
 
 ## Lenker
 
+Satellittbilder 
+
+16.02: https://www.jottacloud.com/s/3009c8e7f96e6d54d169728cae64ad305c4
+
+28.02: https://www.jottacloud.com/s/300e4b36cab8cf64f338a67c5eb41dde823
+
+<!--
 - Installere [Anaconda](https://www.anaconda.com/products/distribution)
 - Alt om [conda-miljøer](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - Pytorch Dokumentasjon og [tutorials](https://pytorch.org/tutorials/)
@@ -22,3 +29,4 @@ Dette repoet inneholder kode og notebooks relatert til en ukes kurs i Maskinlær
 - [Segmentering](notebooks/Segmentering.ipynb) setter opp et UNet for semantisk segmentering av landtyper fra satellittbilder.
 - [toolbox](toolbox/) er en implemtering av et trent UNet fra Segmenteringsnotebooken, i en Python toolbox for Arcgis Pro. Den kjører i Arcgis 3.1 med conda miljøet som ligger vedlagt, men det kan hende man må lage et eget miljø ved å clone det lokale arcgispro-py3, og installere nødvendige pakker.
 
+-->
