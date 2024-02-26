@@ -10,6 +10,15 @@ Satellittbilder
 
 28.02: https://www.jottacloud.com/s/300e4b36cab8cf64f338a67c5eb41dde823
 
+UMBRA eksempelbilder
+
+Paris: http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/ad%20hoc/Paris%2C%20France/dde73766-d7f1-40aa-babb-6c30300b6d37/2023-02-25-10-12-58_UMBRA-05.tif
+
+Panama kanalen: http://umbra-open-data-catalog.s3.amazonaws.com/sar-data/tasks/Panama%20Canal%2C%20Panama/18a6f561-d058-4dda-bf82-cadebe6be230/2023-06-09-15-08-28_UMBRA-05/2023-06-09-15-08-28_UMBRA-05_GEC.tif
+
+Mange flere: http://umbra-open-data-catalog.s3-website.us-west-2.amazonaws.com/?prefix=sar-data/tasks/
+
+
 <!--
 - Installere [Anaconda](https://www.anaconda.com/products/distribution)
 - Alt om [conda-miljøer](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
