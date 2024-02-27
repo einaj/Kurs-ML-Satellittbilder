@@ -7,7 +7,7 @@ Dette repoet inneholder kode og notebooks relatert til en ukes kurs i Maskinlær
 Installere pytorch for eldre cuda
 
 ```
-conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
 ```
 
 ## Lenker
