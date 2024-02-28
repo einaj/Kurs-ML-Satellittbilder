@@ -3,6 +3,7 @@
 
 # Eurosat datasett
 /notebooks/2024/data/*
+/notebooks/2024/runs/*
 /notebooks/2024/treninger/*
 /notebooks/data/eurosat/*
 notebooks/data/landcover/*

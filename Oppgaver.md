@@ -38,3 +38,27 @@ Ta utgangspunkt i notebooken for RGB bilder, gjør de nødvendige endringene for
 
 **Hint:** Det første laget i nettverkene for rgb bilder er laget for å ta inn 3 kanaler. Dette må endres for å ta inn 13 kanaler i stedet. (På samme måte som vi endret fra 1000 til 10 klasser i siste lag)
 
+## 2) Objektdeteksjon fra Satellitt med YOLOv8-OBB
+
+![](media/OBB.png)
+
+Når vi ser ting ovenfra er det ofte en fordel å ha roterbare bounding bokser.
+
+![](media/OBB2.png)
+
+
+YOLOv8 har en modell for dette vi ikke har tatt i bruk ennå - `YOLO-OBB`.
+
+Det finnes ferdigtrente modeller som er trent på datasettet[DOTA V1](https://captain-whu.github.io/DOTA/index.html) som bruker bilder fra Google Earth og to kinensiske satellitter og har 15 innebygde klasser:
+
+plane, ship, storage tank, baseball diamond, tennis court, basketball court, ground track field, harbor, bridge, large vehicle, small vehicle, helicopter, roundabout, soccer ball field and swimming pool
+
+### Del 1: test den ferdigtrente modellen
+
+YOLOv8-OBB kan lastes inn og kjøres på samme måte som vi brukte de andre yolo modellene, man må bare bytte ut modellen med
+
+```
+model = YOLO('yolov8n-obb.pt') # velg n,s,m,l etc
+```
+
+Test modellen på noen bilder du finner
