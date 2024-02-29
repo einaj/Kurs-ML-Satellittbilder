@@ -50,6 +50,9 @@ while grabbed:
 
     out = result.plot()
 
+    # tilbake til BGR
+    out = cv2.cvtColor(out,cv2.COLOR_RGB2BGR)
+
     if show_video:
         cv2.imshow("detections",out)
 
